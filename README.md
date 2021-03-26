@@ -49,7 +49,7 @@ output_size : the number of output dimensions of your model.
 # TensorBoard Projector
 
 
-![alt text](https://s4.gifyu.com/images/2021-03-24-04-14-10.gif "TensorBoard Projector")
+<img src="TensorBoard.gif?raw=true" width="2000px">
 
 ## Usage 
 
