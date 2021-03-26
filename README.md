@@ -11,7 +11,7 @@ Interactive Viewer is a tool that provides a way to visually view a PyTorch mode
 # Installation
 
 ``` 
-pip install 
+pip install git+https://github.com/spaceml-org/Interactive-TSNE.git
 ```
 
 # Interactive Plot 
