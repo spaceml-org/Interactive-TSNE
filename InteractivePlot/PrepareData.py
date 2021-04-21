@@ -89,7 +89,7 @@ class PrepareData:
                     x = batch[0].cuda()
                 else:
                     x = batch[0]
-                embeddings = model(x)
+                embeddings = model(x)[0]
                 data_matrix = torch.vstack((data_matrix, embeddings))
         return data_matrix.cpu().detach().numpy() 
 
