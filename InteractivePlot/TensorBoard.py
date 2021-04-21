@@ -72,7 +72,7 @@ class Projector(torch.nn.Module):
         Returns:
             (torch.Tensor): The output of self.model against x
         '''
-        return(self.model(x))
+        return(self.model(x)[0])
     
     
     def write_embeddings(self, x, outsize=(32,32)):
