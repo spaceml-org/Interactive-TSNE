@@ -65,7 +65,7 @@ class PrepareData:
             model = torch.load(MODEL_PATH)
         else: 
             print('Using CPU')
-            model = torch.load(MODEL_PATH, map_location = torch.cpu())
+            model = torch.load(MODEL_PATH, map_location = device)
         t = transforms.Compose(
         [transforms.Resize((224, 224)),
             transforms.ToTensor(),
